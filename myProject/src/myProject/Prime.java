@@ -7,11 +7,8 @@ public class Prime {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int n = sc.nextInt();
-		
 
-		
-		for(int i=0;i<=n;i++) {
-			
+		for(int i=0;i<=n;i++) {			
 			if((isPrime(i))) {
 				System.out.print(i+" ");
 			}
@@ -40,5 +37,4 @@ public class Prime {
 		return true;
 		}
 	}
-
 }
